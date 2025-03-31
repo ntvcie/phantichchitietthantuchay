@@ -8,6 +8,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
 from datetime import datetime, timedelta
+import os
+os.environ["STREAMLIT_SERVER_ENABLE_CORS"] = "false"
+os.environ["STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION"] = "false"
 
 # Giao diện Streamlit
 hide_st_style = """
