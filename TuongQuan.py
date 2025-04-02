@@ -36,7 +36,7 @@ st.set_page_config(
 
 #st.markdown("<h1 style='color:#5192e0;'>💻Phân tích dữ liệu than tự cháy mỏ hầm lò</h1>", unsafe_allow_html=True)
 st.markdown(hide_st_style, unsafe_allow_html=True)
-st.logo(image="images/logo.png")
+#st.logo(image="images/logo.png")
 # Định nghĩa các ngưỡng cảnh báo
 nguong_nhiet_do_thap = 40  # Ngưỡng cảnh báo thấp cho nhiệt độ (°C)
 nguong_nhiet_do_cao = 50   # Ngưỡng cảnh báo cao cho nhiệt độ (°C)
